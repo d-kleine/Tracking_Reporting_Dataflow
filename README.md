@@ -1,4 +1,4 @@
-# Tracking & Reporting README
+# Tracking & Reporting
 
 This README provides an overview of the tasks related to building a data flow for tracking and reporting using historical weather data. The objective is to demonstrate the technical ability to set up the data flow using various tools and technologies.
 
