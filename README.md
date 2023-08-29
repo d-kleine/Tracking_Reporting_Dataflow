@@ -46,9 +46,9 @@ In this task, you will use *dbt* (data build tool) to create a reporting view co
 Steps:
 1. *Set Up dbt Cloud IDE*:
 * Access dbt Cloud IDE and create a new project.
-3. *Define Models and Transformations*:
+2. *Define Models and Transformations*:
 * Create dbt models to aggregate and calculate the required metrics using the data in your BigQuery table.
-4. *Execute dbt Run*:
+3. *Execute dbt Run*:
 * Run the dbt transformation process to build the reporting view.
 
 **Task 4: Create Dashboard in Google Looker Studio**
@@ -58,9 +58,9 @@ Steps:
 
 1. *Set Up Looker Studio*:
 * Access Google Looker Studio and create a new dashboard project.
-3. *Create Visualizations*:
+2. *Create Visualizations*:
 * Design visualizations to display the metrics calculated by dbt over time.
-4. *Configure Data Sources*:
+3. *Configure Data Sources*:
 * Connect Looker Studio to Google BigQuery and ensure access to the dbt-created reporting view.
-5. Build Dashboard:
+4. Build Dashboard:
 * Assemble the visualizations into a coherent dashboard layout and configure any necessary filters and date ranges for interactive exploration.
