@@ -25,6 +25,8 @@ precipitation (FLOAT)
 4. Create the Table:
 * Using the defined schema, create a new table within your dataset to store the historical weather data.
 
+![GCP Table Schema](https://github.com/d-kleine/gcp_dbt_challenge/blob/main/gcp_schema.png)
+
 **Task 2: Export of Historical Weather Data**
 
 With the BigQuery database and table set up, you can now proceed to export historical weather data from the weather API and store it in BigQuery using a Google Cloud Function.
@@ -39,6 +41,9 @@ Steps:
 3. *Insert Data into BigQuery*:
 * Utilize the BigQuery API to insert the transformed weather data into the appropriate table within your dataset.
 
+![GCP Function](https://github.com/d-kleine/gcp_dbt_challenge/blob/main/gcp_function.png)
+![GCP BigQuery](https://github.com/d-kleine/gcp_dbt_challenge/blob/main/gcp_table_preview.png)
+
 **Task 3: Create Reporting-View with dbt**
 
 In this task, you will use *dbt* (data build tool) to create a reporting view containing aggregated data.
@@ -50,6 +55,10 @@ Steps:
 * Create dbt models to aggregate and calculate the required metrics using the data in your BigQuery table.
 3. *Execute dbt Run*:
 * Run the dbt transformation process to build the reporting view.
+
+![dbt yml](https://github.com/d-kleine/gcp_dbt_challenge/blob/main/dbt_yml.png)
+![dbt sql](https://github.com/d-kleine/gcp_dbt_challenge/blob/main/dbt_sql.png)
+![dbt GCP export](https://github.com/d-kleine/gcp_dbt_challenge/blob/main/gcp_dbt_aggtable.png)
 
 **Task 4: Create Dashboard in Google Looker Studio**
 
@@ -64,3 +73,5 @@ Steps:
 * Connect Looker Studio to Google BigQuery and ensure access to the dbt-created reporting view.
 4. Build Dashboard:
 * Assemble the visualizations into a coherent dashboard layout and configure any necessary filters and date ranges for interactive exploration.
+
+![Google Looker Vis](https://github.com/d-kleine/gcp_dbt_challenge/blob/main/looker_vis.png)
