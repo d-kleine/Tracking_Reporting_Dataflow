@@ -4,7 +4,7 @@ models:
   - name: weather_reporting
     materialized: view
     database: capable-fuze-396900 # Google Cloud-Projektname
-    schema: weather_dataset # BigQuery-Dataset für die Wetterdaten
+    schema: weather_dataset # BigQuery-Dataset für die zu aggregierenden Wetterdaten
     description: "Reporting view for weather data"
     pre-hook: []
     post-hook: []
