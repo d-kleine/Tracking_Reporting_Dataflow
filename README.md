@@ -9,9 +9,9 @@ This task involves building a representative dataflow to demonstrate technical p
 ## Task Steps
 * Export historical weather data (last 7 days) for the cities of Hamburg, Berlin, and Munich using a Google Cloud Function from a weather API. Save this data in Google BigQuery.
 * Utilize dbt (https://www.getdbt.com/) to create a reporting view containing the following data:
-* Cumulative average temperature for the cities of Berlin, Hamburg, and Munich.
-* Cumulative average precipitation amount for the cities of Berlin, Hamburg, and Munich.
-* Devise a fantasy score for the weather in each of the 3 cities (non-cumulative) and calculate it.
+  * Cumulative average temperature for the cities of Berlin, Hamburg, and Munich.
+  * Cumulative average precipitation amount for the cities of Berlin, Hamburg, and Munich.
+  * Devise a fantasy score for the weather in each of the 3 cities (non-cumulative) and calculate it.
 * Develop a dashboard in Google Looker Studio that presents the values over time for weather fantasy score, temperature, and precipitation amount.
 
 Through these steps, the task aims to demonstrate the construction of a dataflow, integrating data collection, transformation, and visualization using tools like Google Cloud, dbt, and Looker Studio.
